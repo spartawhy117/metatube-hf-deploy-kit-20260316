@@ -1,6 +1,6 @@
 FROM golang:alpine AS builder
 
-ARG GIT_REPO=https://github.com/YOUR_GITHUB_USERNAME/metatube-sdk-go.git
+ARG GIT_REPO=https://github.com/spartawhy117/metatube-sdk-go-stable
 ARG GIT_REF=main
 
 RUN apk add --no-cache git ca-certificates tzdata
