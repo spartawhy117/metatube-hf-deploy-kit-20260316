@@ -129,7 +129,7 @@
 在 Windows PowerShell 中也可以测试：
 
 ```powershell
-Invoke-RestMethod "https://<你的hf域名>/"
+Invoke-RestMethod "https://<你的hf域名>.hf.space/"
 ```
 
 如果根路径都不通，先不要测插件，直接看 `TROUBLESHOOTING.md`。
@@ -140,12 +140,12 @@ Invoke-RestMethod "https://<你的hf域名>/"
 
 再测试：
 
-- `https://<你的hf域名>/v1/providers`
+- `https://<你的hf域名>.hf.space/v1/providers`
 
 PowerShell 示例：
 
 ```powershell
-Invoke-RestMethod "https://<你的hf域名>/v1/providers"
+Invoke-RestMethod "https://<你的hf域名>.hf.space/v1/providers"
 ```
 
 你主要看：
